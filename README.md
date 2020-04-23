@@ -9,7 +9,7 @@ ___
 ## Installation
 
 ```bash
-composer require exula/laravel-storage-rados-s3
+composer require syntaxevolution/laravel-storage-rados-s3
 ```
 Package should be auto discovered by Laravel 5.5
 
@@ -19,7 +19,7 @@ Register the service provider in app.php
 ```php
 'providers' => [
     // ...
-    Exula\Ceph\CephStorageServiceProvider::class,
+    SyntaxEvolution\Ceph\CephStorageServiceProvider::class,
 ]
 ```
 

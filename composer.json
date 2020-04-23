@@ -1,11 +1,11 @@
 {
-    "name": "exula/laravel-storage-rados-s3",
+    "name": "syntaxevolution/laravel-storage-rados-s3",
     "description": "Extends League Flysystem S3 Adapter to easily point it to a Rados Gateway",
     "license": "MIT",
     "authors": [
         {
-            "name": "Bradley Coudriet",
-            "email": "brad@exula.net"
+            "name": "Topher Lazarz",
+            "email": "topher[at]syntaxevolution{dot}com"
         }
     ],
     "require": {
@@ -14,13 +14,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Exula\\Ceph\\": "src/"
+            "SyntaxEvolution\\Ceph\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Exula\\Ceph\\CephStorageServiceProvider"
+                "SyntaxEvolution\\Ceph\\CephStorageServiceProvider"
             ]
         }
     }
